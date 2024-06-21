@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Rammetto+One&display=swap');
+@font-face {
+    font-family: "Darling Coffe";
+    src: url(DarlingCoffee-V4qex.ttf);
+}
+
+/*------------------------------------------------*/
+
+
+body {
+    background: linear-gradient(to right, #ffe5ec, #fb6f92);
+}
+.title {
+    font-family: "Kreon" ,sans-serif ;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    font: size 2000px35    
+}
+
+.title2 {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+p {
+   font-family: "Original Surfer", sans-serif ;
+
+}
+.title2a {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: right;
+}
+.subtitle1 {
+    text-align: right;
+}
+.img {
+    
+    float:left ;
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+   
+}
+.img1 {
+    float: right;
+    max-width: 320px;
+
+}
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    align-items: center;
+    max-width: 320px;
+    width: 70%;
+}
+html {
+    margin: 10px;
+    padding-left: 18px;
+    padding-right: 10px;
+}
+.para {
+
+}
+div {
+    min-height: 80vh;
+}

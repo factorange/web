@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handlee&display=swap');
+@font-face {
+    font-family: "Darling Coffe";
+    src: url(DarlingCoffee-V4qex.ttf);
+}
+
+/*------------------------------------------------*/
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Key property for responsiveness */
+    margin: 10px; /* Add optional margin for the container */
+  }
+  
+  .image-text-container {
+    display: flex;
+    flex-wrap: wrap; /* Enables responsive layout within sections */
+    width: 50%; /* Initial container width for side-by-side */
+    margin: 5px; /* Add optional margin for spacing */
+    padding: 10px; /* Add optional padding for content spacing */
+    border-radius: 15px;
+  }
+  
+  .image-text-container > * { /* Target all direct children */
+    width: 100%; /* Elements take full width within container */
+  }
+  
+  .image-text-container h3 {
+    margin-bottom: 5px; /* Add spacing after heading */
+  }
+  
+  .image-text-container > *:nth-child(odd) {
+    /* Style elements at odd positions (left-floated) */
+    float: left;
+    text-align: left;
+  }
+  
+  .image-text-container > *:nth-child(even) {
+    /* Style elements at even positions (right-floated) */
+    float: right;
+    text-align: right;
+  }
+  
+  /* Optional media queries for further adjustments (optional) */
+  
+  @media (max-width: 768px) {
+    .image-text-container {
+      width: 100%; /* Elements take full width on small screens */
+    }
+  }
+  
+  body {
+    background: linear-gradient(to right, #ffe5ec, #fb6f92);
+  }
+#heading {
+    font-family: "Kreon", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    font: size 2000px35
+
+}
+.title {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+p {
+    font-family: "Original Surfer", sans-serif ;
+    text-wrap: ;
+}
+
+}
+.last {
+    font-family: "Handlee",sans-serif;
+    font-weight: bold;
+}
+#lastlast {
+    text-transform: uppercase;
+    font-family: "Architects Daughter";
+    font-weight: 800;
+    text-shadow:2px 2px 5px  black ;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+#date1 {
+    text-align: left;
+}
+   
